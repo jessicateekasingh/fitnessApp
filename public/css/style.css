@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html{
   scroll-behavior: smooth;
   font-family: "Oswald", sans-serif;
@@ -17,7 +18,7 @@ html{
   top: 0;
   width: 100%;
   background: black;
-  height: 5vh;
+  height: 9vh;
 
 }
 
@@ -55,6 +56,7 @@ html{
 
 .wrk-info{
   justify-content: space-between;
+  font-family: 'Bebas Neue', cursive;
 }
 
 .btns{
@@ -130,8 +132,4 @@ html{
 
 .create-submit:hover{
   color: #7B68EE;
-}
-
-.wrk-info{
-  justify-content: center;
 }

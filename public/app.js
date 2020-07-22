@@ -20,7 +20,7 @@ class Workout extends React.Component{
     <div className="wrk-info">
     <h2>{workout.author}</h2><br/>
     <h4>{workout.workout}</h4><br/>
-    <h6>{workout.des}</h6><br/>
+    <h3>{workout.des}</h3><br/>
     </div>
 
 
