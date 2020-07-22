@@ -1,0 +1,19 @@
+{
+  "name": "fitnessapp",
+  "version": "1.0.0",
+  "description": "### An app for a user to log / list the workouts they plan to do. Has full CRUD functionality.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessicateekasingh/fitnessApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessicateekasingh/fitnessApp/issues"
+  },
+  "homepage": "https://github.com/jessicateekasingh/fitnessApp#readme"
+}
