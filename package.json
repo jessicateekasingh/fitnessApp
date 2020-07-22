@@ -6,7 +6,7 @@
   "name": "fitnessapp",
   "version": "1.0.0",
   "description": "### An app for a user to log / list the workouts they plan to do. Has full CRUD functionality.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
