@@ -15,3 +15,7 @@ RewriteRule ^workouts/([0-9]+)$ controllers/workouts.php?action=update&id=$1
 
 RewriteCond %{REQUEST_METHOD} ^DELETE$
 RewriteRule ^workouts/([0-9]+)$ controllers/workouts.php?action=delete&id=$1
+
+<IfModule mod_alias.c>
+    RedirectMatch 403 favicon.ico
+</IfModule>
