@@ -17,9 +17,9 @@ class Workout extends React.Component{
 
     <div key={index} className="show-page">
 
-
+    <div className="wrk-info">
     <h2>{workout.workout} {workout.author} {workout.des}</h2>
-
+    </div>
 
 
     <button className="btns" onClick={this.toggleShow}>EDIT</button>
