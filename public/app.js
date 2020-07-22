@@ -18,7 +18,9 @@ class Workout extends React.Component{
     <div key={index} className="show-page">
 
     <div className="wrk-info">
-    <h2>{workout.workout} {workout.author} {workout.des}</h2>
+    <h2>{workout.author}</h2><br/>
+    <h4>{workout.workout}</h4><br/>
+    <h6>{workout.des}</h6><br/>
     </div>
 
 
@@ -30,10 +32,10 @@ class Workout extends React.Component{
     { this.state.show ?
         <div className="edit-form">
           <form id={workout.id} onSubmit={updateWorkout}>
-            <input  onKeyUp={updateAuthor} type="text" placeholder="Name" required/>
-            <input  onKeyUp={updateWorkoutOpt} type="text" placeholder="Cardio, Endurance, Strength" required/>
-            <input  onKeyUp={updateDes} type="text" placeholder="New Description" required/>
-            <input type="submit" value="Update Workout"/>
+            <input className="edit-input"  onKeyUp={updateAuthor} type="text" placeholder="Name" required/>
+            <input className="edit-input" onKeyUp={updateWorkoutOpt} type="text" placeholder="Cardio, Endurance, Strength" required/>
+            <input className="edit-input" onKeyUp={updateDes} type="text" placeholder="New Description" required/>
+            <input className="edit-submit" type="submit" value="Update Workout"/>
           </form>
         </div> : null }
         </div>
@@ -159,7 +161,7 @@ class App extends React.Component{
 
   render = () => {
     return <div>
-    <nav className="nav-bar"><button onClick={this.toggleShow} className="nav-btns">MAKE A WORKOUT</button></nav>
+    <nav className="nav-bar"><button onClick={this.toggleShow} className="nav-btns">LIST A WORKOUT</button></nav>
 
     { this.state.show ?
     <div className="create-form-div">

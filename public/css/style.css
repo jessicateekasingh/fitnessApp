@@ -74,5 +74,64 @@ html{
 }
 
 .edit-form{
+  margin-top: 70px;
+  justify-content: space-between;
+  padding: 15px;
+  margin-bottom: 20px;
+}
 
+.edit-input{
+  margin-top: 10px;
+  justify-content: space-between;
+  padding: 15px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.edit-submit{
+  width: 25%;
+  margin-top: 10px;
+  padding: 15px;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #7B68EE;
+  box-shadow: 0 2px 2px gray;
+  font-size: 1.2em;
+  transition: ease .5s;
+}
+
+.edit-submit:hover{
+  color: #FFD700;
+}
+
+.create-form{
+  margin-top: 70px;
+
+}
+
+.create-input{
+  justify-content: space-between;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.create-submit{
+  width: 25%;
+  margin-top: 10px;
+  padding: 15px;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #7B68EE;
+  box-shadow: 0 2px 2px gray;
+  font-size: 1.2em;
+  transition: ease .5s;
+}
+
+.create-submit:hover{
+  color: #7B68EE;
+}
+
+.wrk-info{
+  justify-content: center;
 }
