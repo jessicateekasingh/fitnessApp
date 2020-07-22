@@ -170,7 +170,7 @@ class App extends React.Component{
        <input className="create-input" onKeyUp={this.createAuthor} type="text" placeholder="Name" required/><br/>
        <input className="create-input" onKeyUp={this.createWorkoutOpt} type="text" placeholder="Cardio, Endurance, Strength.." required/><br/>
        <input className="create-input" onKeyUp={this.createDes} type="text" placeholder="Add Description" required/><br/>
-       <input className="create-submit" type="submit" value="Make it WORK"/>
+       <button type="submit" onClick={this.createWorkout}>Make it WORK</button>
       </form>
     </div> : null}
 
